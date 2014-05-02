@@ -1,0 +1,4 @@
+{:+ {:app [(:lt.objs.plugins/load-js "syntax status bar_compiled.js" true)
+           (:lt.objs.plugins/load-css "resources/css/syntaxstatusbar.css")]
+     :editor [:lt.plugins.syntaxstatusbar/attach]
+     }}

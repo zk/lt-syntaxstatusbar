@@ -1,0 +1,9 @@
+/* #statusbar changes to gracefully handle line-overflow in statusbar */
+
+#statusbar {
+  overflow: hidden;
+}
+
+#statusbar li {
+  margin-bottom: 10px;
+}
